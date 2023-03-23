@@ -1,0 +1,16 @@
+h1, p{
+    text-align: center;
+}
+
+ol{
+    font-size: 20px;
+}
+
+li:hover{
+    background-color: aquamarine;
+    max-width: max-content;
+}
+
+li:active{
+    color: red;
+}
