@@ -1,0 +1,30 @@
+.trybeverde{
+    color: #0a7e51;
+}
+body{
+    font-family: Montserrat, sans-serif;;
+}
+.fontitalic{
+    font-style: italic;
+}
+h1{
+    font-size: 45px;
+}
+.inicial{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+p{
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.botao{
+    text-decoration: none;
+    color: white;
+    background-color: #11a36a;
+    padding: 15px;
+    border-radius: 4px;
+    font-weight: 700;
+}
