@@ -1,0 +1,36 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div{
+    max-width: 200px;
+}
+
+div:nth-child(5){
+    font-size: 18px;
+}
+
+div:nth-child(2n-1){
+    font-style: italic;
+}
+
+#pri:hover{
+    border: solid blue;
+    background-color: rgb(54, 180, 235);
+}
+#sec:hover{
+    border: solid green;
+    background-color: rgb(81, 224, 56);
+}
+#com:hover{
+    border: solid brown;
+    background-color: rgb(227, 116, 68);
+}
+#esc:hover{
+    border: solid gray;
+    background-color: rgb(189, 183, 184);
+}
+#cla:hover{
+    border: solid rgb(173, 171, 24);
+    background-color: yellow
+}
