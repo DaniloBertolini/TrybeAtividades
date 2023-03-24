@@ -32,3 +32,8 @@ li:not(:nth-child(n+4)) {
 .pink-bg {
     background-color: pink;
 }
+.li1:hover{font-weight: bold; color: orange;}
+.li2:hover{font-weight: bold; color: green}
+.li3:hover{font-weight: bold; color: black}
+.li4:hover{font-weight: bold; color: yellow}
+.li5:hover{font-weight: bold; color: green}
