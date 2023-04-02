@@ -16,8 +16,8 @@ for (let re = numbers.length; re > 0; re -= 1) {
     }
 }
 
-for (let i=0; i < numbers.length; i += 1) {
+/* for (let i=0; i < numbers.length; i += 1) {
     console.log("Tabela: " + numbers[i])
 }
 
-console.log("final "+numbers)
+console.log("final "+numbers) */
