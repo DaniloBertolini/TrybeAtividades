@@ -1,4 +1,4 @@
-let n = 10
+let n = 5
 let print = "";
 
 for (let i=0; i < n; i += 1) {
@@ -7,8 +7,3 @@ for (let i=0; i < n; i += 1) {
 for (let i=0; i < n; i += 1) {
     console.log(print);
 }
-
-
-//
-
-
