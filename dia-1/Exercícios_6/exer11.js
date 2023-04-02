@@ -58,9 +58,9 @@ if (salarioBruto >= 3000) {
 //RESULTADO
 
 resultado = salarioBruto - (inss + irrf)
-console.log("Seu salário Bruto é de " + salarioBruto)
-console.log("Seu desconto do INSS é de " + inss)
-console.log("Seu desconto do IRRF é de " + irrf)
-console.log("Seu desconto da Trybe é de " + trybe)
-console.log("Seu salário líquido é de " + resultado)
-console.log("Seu salário líquido com desconto da Trybe é de "+ (resultado-trybe))
+console.log("Seu salário Bruto é de " + Math.ceil(salarioBruto))
+console.log("Seu desconto do INSS é de " + Math.ceil(inss))
+console.log("Seu desconto do IRRF é de " + Math.ceil(irrf))
+console.log("Seu desconto da Trybe é de " + Math.ceil(trybe))
+console.log("Seu salário líquido é de " + Math.ceil(resultado))
+console.log("Seu salário líquido com desconto da Trybe é de "+ (Math.ceil(resultado-trybe)))
