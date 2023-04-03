@@ -1,6 +1,6 @@
 # Exercícios
 
-## Arrays
+## Arrays - scripts.js
 
 ### Lista
 
@@ -35,7 +35,7 @@ Um programa que irá criar uma lista de 1 até 25.
 Com base no programa anterior, foi criado um programa que divide cada valor da lista, e adiciona em uma nova lista.
 
 
-## Lógica de Programação
+## Lógica de Programação - scripts2.js
 
 ### Fatorial
 
@@ -48,3 +48,5 @@ Um programa que irá receber uma palavra, e mostrar como é a palavra invertida 
 ### Maior String
 
 Um programa que mostra qual é o menor e a maior palavra de uma lista.
+
+## Bubblesort
