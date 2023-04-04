@@ -1,3 +1,3 @@
 # 2 Dados
 
-Um programa que faz a comparação entre 2 dados, no qual os valores são gerados automáticamente, e o programa só irá finalizar quando ambos os números forem iguais usando while.
+1. Para o exercício a seguir, simule um jogo com dois dados de seis lados. O objetivo é rolar o segundo dado até que o número sorteado seja igual ao do primeiro dado. Assim, utilize o código Math.ceil(Math.random() * 6) para gerar um número aleatório entre 01 e 06.
