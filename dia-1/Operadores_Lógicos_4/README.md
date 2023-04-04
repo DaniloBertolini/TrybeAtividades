@@ -10,7 +10,7 @@
 * Se o horário estiver entre 4 e 11, insira “Hmmm, cheiro de café recém-passado” na variável “message”.
 4. Agora, imprima a variável message fora das suas condições.
 
-##
+###
 
 1. Crie uma variável chamada “weekDay” que receba a string “quarta-feira”.
 2. Utilizando if/else, implemente as seguintes condicionais:
