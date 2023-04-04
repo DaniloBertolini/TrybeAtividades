@@ -1,3 +1,6 @@
 # For
 
-Um programa que implementado com for, uma instrução de looping, eu irá mostrar todos os itens contidos na lista.
+```
+let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+```
+1. Utilize o for para imprimir os elementos da lista groceryList com o console.log():
