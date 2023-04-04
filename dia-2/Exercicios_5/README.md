@@ -61,4 +61,6 @@ Um programa que mostra qual é o menor e a maior palavra de uma lista.
 
 5- Um programa que recebe um número, e o valor irá definir o tamanho do triangulo retangulo, que irá de 1 até o valor escolhido que será a base.
 
-6- Um programa que terá a mesma função do programa anterior, porém irá mostrar um triangulo retangulo invertido.
+5- Um programa que terá a mesma função do programa anterior, porém irá mostrar um triangulo retangulo invertido.
+
+6- Um programa que recebe um número, e irá fazer uma piramide conforme a base.
