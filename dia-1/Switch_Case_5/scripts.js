@@ -1,5 +1,7 @@
+// #1
 let status = "aprovada";
 
+// #2
 switch (status) {
 
     case 'aprovada':

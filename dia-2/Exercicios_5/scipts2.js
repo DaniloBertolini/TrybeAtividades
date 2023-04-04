@@ -1,3 +1,4 @@
+// #1
 numero = 6;
 let resultado = numero;
 
@@ -6,8 +7,7 @@ for (let a=numero; a > 1; a -= 1) {
 }
 console.log(resultado)
 
-//
-
+// #2
 let palavra = 'dinhoOvirtuoso';
 let novapalavra = "";
 for (let b = palavra.length-1; b >= 0; b -= 1) {
@@ -16,11 +16,9 @@ for (let b = palavra.length-1; b >= 0; b -= 1) {
 
 console.log(novapalavra)
 
-//
+// #3
 
 let array = ['java', 'javascript', 'python', 'html', 'css']
-
-/* for (); */
 
 let maiorpalavra = '';
 let menorpalavra = array[0];

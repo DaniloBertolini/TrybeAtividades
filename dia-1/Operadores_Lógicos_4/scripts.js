@@ -1,6 +1,9 @@
+// #1
 currentHour = 19;
+// #2
 message = "";
 
+// #3
 if (currentHour >= 22 || currentHour < 4) {
     message = "Não deveríamos comer nada, é hora de dormir"
 } 
@@ -19,7 +22,7 @@ else if (currentHour >= 4 && currentHour < 11) {
 
 console.log(message)
 
-// ----------------------------------//
+// #4
 
 weekDay = "quarta-feira";
 
