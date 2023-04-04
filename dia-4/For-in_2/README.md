@@ -8,7 +8,7 @@ for (let value of food) {
 //resultado: hambúrguer, bife, acarajé;
 ```
 
-*No exemplo acima, utilizamos o for/of para percorrer o iterável e retornar o valor dos elementos.
+* No exemplo acima, utilizamos o for/of para percorrer o iterável e retornar o valor dos elementos.
 
 1. Utilize for/in e imprima no console a mensagem 'Olá, xxxxx' para cada nome, substituindo o xxxxx pelo nome em questão.
 
