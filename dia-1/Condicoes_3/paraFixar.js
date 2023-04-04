@@ -1,5 +1,7 @@
+// #1
 nota = 100;
 
+//#2
 if (nota >= 80) {
     console.log("Parabéns, você faz parte do grupo de pessoas aprovadas!")
 }
