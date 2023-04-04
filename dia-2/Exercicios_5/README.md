@@ -50,3 +50,17 @@ Um programa que irá receber uma palavra, e mostrar como é a palavra invertida 
 Um programa que mostra qual é o menor e a maior palavra de uma lista.
 
 ## Bubblesort
+
+1- Um programa que verifica uma lista, e com uma série de comandos, ordena de forma crescente e retorna como ficou.
+
+2- Um programa que verifica uma lista, e com uma série de comandos, ordena de forma decrescente e retorna como ficou.
+
+3- Um programa que verifica uma lista, e vai multiplicando 2 números, e coloca numa nova lista.
+
+4- Um programa que recebe um número, e o valor irá definir a quantidade de símbolos que irá salvar dentro de uma variável, e irá mostrar na tela, conforme a quantidade do valor inicial.
+
+5- Um programa que recebe um número, e o valor irá definir o tamanho do triangulo retangulo, que irá de 1 até o valor escolhido que será a base.
+
+5- Um programa que terá a mesma função do programa anterior, porém irá mostrar um triangulo retangulo invertido.
+
+6- Um programa que recebe um número, e irá fazer uma piramide conforme a base.
