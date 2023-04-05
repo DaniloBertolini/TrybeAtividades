@@ -136,8 +136,8 @@ let lesson3 = {
 3. Crie uma função para mostrar o tamanho de um objeto. Essa função deve receber um objeto como parâmetro.
 4. Crie uma função para listar os valores de um objeto. Essa função deve receber um objeto como parâmetro.
 5. Crie um objeto de nome allLessons, que deve agrupar todas as aulas por meio do Object.assign. Cada chave desse novo objeto será uma aula, portanto essas chaves serão nomeadas lesson1, lesson2 e lesson3.
-6.Com base no objeto elaborado no tópico anterior, crie uma função que retorne o número total de estudantes em todas as aulas.
-7.Crie uma função que obtenha o valor da chave de acordo com sua posição no objeto. Por exemplo:
+6. Com base no objeto elaborado no tópico anterior, crie uma função que retorne o número total de estudantes em todas as aulas.
+7. Crie uma função que obtenha o valor da chave de acordo com sua posição no objeto. Por exemplo:
 
 ```
 console.log(getValueByNumber(lesson1, 0));

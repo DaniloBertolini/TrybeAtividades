@@ -1,5 +1,4 @@
 // #1
-
 let info = {
     personagem: 'Margarida',
     origem: 'Pato Donald',
@@ -12,35 +11,25 @@ let info2 = {
     recorrente: 'Sim',
 };
  
-    
 console.log('Bem-vinda, ' + info.personagem)
 
-console.log()
-// #2
 
+// #2
 info['recorrente'] = 'Sim'
 console.log(info)
 
 
-console.log()
 // #3
-
 for (let key in info) {
     console.log(key)
 }
 
-
-console.log()
 // #4
-
 for (let key in info) {
     console.log(info[key])
 }
 
-
-console.log()
 // #5
-
 for (let key in info) {
     if (key === 'recorrente' && info[key] === 'Sim' && info2[key] === 'Sim') {
         console.log('Ambos concorrentes')
