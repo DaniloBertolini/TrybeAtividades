@@ -75,3 +75,67 @@ function numerosRomanos (numero) {
 }
 
 numerosRomanos('VIII'); */
+
+//Exercicio 2
+
+const arrayOfNumbers = (vector) => {
+    novaArray = [];
+    for(let i=0; i<vector.length; i += 1) {
+        for(let a=0; a<vector[i].length; a += 1) {
+            (vector[i][a] % 2 === 0) ? novaArray.push(vector[i][a]) : '';
+        }
+    }
+    return novaArray;
+};
+
+console.log(arrayOfNumbers([[1, 2], [3,4,5,6], [7,8,9,10]]));
+
+
+//Exercicio 3
+
+let basket = [
+    'Melancia', 'Abacate', 'Melancia', 'Melancia', 'Uva', 'Laranja',
+    'Jaca', 'Pera', 'Melancia', 'Uva', 'Laranja', 'Melancia',
+    'Banana', 'Uva', 'Pera', 'Abacate', 'Laranja', 'Abacate',
+    'Banana', 'Melancia', 'Laranja', 'Laranja', 'Jaca', 'Uva',
+    'Banana', 'Uva', 'Laranja', 'Pera', 'Melancia', 'Uva',
+    'Jaca', 'Banana', 'Pera', 'Abacate', 'Melancia', 'Melancia',
+    'Laranja', 'Pera', 'Banana', 'Jaca', 'Laranja', 'Melancia',
+    'Abacate', 'Abacate', 'Pera', 'Melancia', 'Banana', 'Banana',
+    'Abacate', 'Uva', 'Laranja', 'Banana', 'Abacate', 'Uva',
+    'Uva', 'Abacate', 'Abacate', 'Melancia', 'Uva', 'Jaca',
+    'Uva', 'Banana', 'Abacate', 'Banana', 'Uva', 'Banana',
+    'Laranja', 'Laranja', 'Jaca', 'Jaca', 'Abacate', 'Jaca',
+    'Laranja', 'Melancia', 'Pera', 'Jaca', 'Melancia', 'Uva',
+    'Abacate', 'Jaca', 'Jaca', 'Abacate', 'Uva', 'Laranja',
+    'Pera', 'Melancia', 'Jaca', 'Pera', 'Laranja', 'Jaca',
+    'Pera', 'Melancia', 'Jaca', 'Banana', 'Laranja', 'Jaca',
+    'Banana', 'Pera', 'Abacate', 'Uva', 
+  ];
+
+const separando = (listaGrande) => {
+    lista = {};
+    for (let i=0; i<listaGrande.length;  i += 1) {
+        let fruta = basket[i];
+        if (!lista[fruta]) lista[fruta] = 0;
+        lista[fruta] += 1;
+    }
+    return lista;
+};
+
+const palavras = () => {
+    palavrasLista = [];
+    let resultado = separando(basket);
+    for(fruta in resultado) {
+        let mensagem = `${resultado[fruta]} ${fruta}`;
+        if(resultado[fruta] > 1) mensagem += 's';
+        palavrasLista.push(mensagem);
+    }
+    return palavrasLista;
+}
+
+console.log(`Sua cesta possui: ${palavras().join(', ')}`);
+
+
+// Exercicio 4
+
