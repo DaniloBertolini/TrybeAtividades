@@ -1,0 +1,31 @@
+<main id="parent-of-parent">
+  <section id="parent">
+    <section id="first-child"></section>
+    <section id="where-are-you">
+      <section id="first-child-of-child"></section>
+    </section>
+    Attention!
+    <section id="third-child"></section>
+    <section id="fourth-and-last-child"></section>
+  </section>
+  <script>
+    //#1
+    const whereAreYou = document.getElementById('where-are-you');
+    //#2
+    const parent = whereAreYou.parentElement
+    parent.style.color = 'blue';
+    //#3
+    const firstChildOfChild = whereAreYou.firstElementChild;
+    firstChildOfChild.innerText = 'Primeiro Filho do Filho';
+    //#4
+    const ParentFirstChild = document.getElementById('parent').firstElementChild;
+    //#5
+    const whereFirstChild = whereAreYou.previousElementSibling;
+    //#6
+    const whereAttention = whereAreYou.nextSibling;
+    //#7
+    const whereThirdChild = whereAreYou.nextElementSibling;
+    //#8
+    const parentThirdChild = parent.lastElementChild.previousElementSibling;
+  </script>
+</main>
