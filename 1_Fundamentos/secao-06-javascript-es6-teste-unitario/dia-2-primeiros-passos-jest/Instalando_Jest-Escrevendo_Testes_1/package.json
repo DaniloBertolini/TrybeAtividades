@@ -1,0 +1,15 @@
+{
+  "name": "instalando_jest_1",
+  "version": "1.0.0",
+  "description": "npm -v sudo apt update sudo apt install npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
