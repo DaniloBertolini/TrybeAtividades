@@ -95,23 +95,48 @@ const clients = [
   },
 ];
 
+//
+
 const findPersonByName = (name) => {
-    let mensagem = '';
-    for (const pessoas of clients) {
-        if (pessoas.name === name) {
-            mensagem += `Destinatário: ${pessoas.name}. Endereço: ${pessoas.address.street}, ${pessoas.address.number}, ${pessoas.address.neighborhood}, ${pessoas.address.city} - ${pessoas.address.state}. CEP: ${pessoas.address.cep}`;
-        }
+  let mensagem = '';
+  for (const pessoas of clients) {
+    if (pessoas.name === name) {
+      mensagem += `Destinatário: ${pessoas.name}. Endereço: ${pessoas.address.street}, ${pessoas.address.number}, ${pessoas.address.neighborhood}, ${pessoas.address.city} - ${pessoas.address.state}. CEP: ${pessoas.address.cep}`;
     }
+  }
+  if (mensagem === '') {
+    throw new Error('Pessoa não encontrada, tente novamente')
+  } else {
     return mensagem;
+  }
 };
 
-//'Destinatário: Ana Santos. Endereço: Rua dos Girassóis, 1011, Barra, Salvador - BA. CEP: 34567-890 '
-console.log(findPersonByName('Rafael Ferreira'))
+try {
+  console.log(findPersonByName('Ana Santos'));
+} catch (error) {
+  console.log(error.message);
+}
 
+// 'Destinatário: Ana Santos. Endereço: Rua dos Girassóis, 1011, Barra, Salvador - BA. CEP: 34567-890'
+
+//
 
 const findPersonByPosition = (position) => {
-  // seu código aqui
+  if (position >= 7) {
+    throw new Error('Posição inválida, tente novamente');
+  }
+  let mensagem = '';
+  mensagem += `Cliente: ${clients[position].name}. email: ${clients[position].email}`;
+  return mensagem;
 };
+
+try {
+  console.log(findPersonByPosition(7));
+} catch (error) {
+  console.log(error.message);
+}
+
+// Cliente: João da Silva. email: joao.silva@gmail.com
 
 const findPeopleByState = (state) => {
   // seu código aqui
