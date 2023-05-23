@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "vite": "^4.3.8"
+  },
+  "name": "exercicio_3",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "vite --open --host"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
