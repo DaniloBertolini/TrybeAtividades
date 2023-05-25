@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to right top, #093a42, #0d3239, #0f2b30, #0f2327, #0f1c1f, #0e1b1e, #0c1b1c, #0b1a1b, #0a1f1e, #092420, #0c2920, #122e1e);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+body, button {
+    font-family: 'Silkscreen', cursive;
+}
+#container {
+    margin: 20px 0px;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+#h1 {
+    font-size: 60px;
+    background-image: linear-gradient(#002DFF 0%, #00AC86 50%, #F90000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 40px;
+}
+#cartas {
+    margin: 20px 0;
+}
+#nome {
+    margin-top: 10px;
+    font-size: 40px;
+    background-image: linear-gradient(#00FFFF 0%, #0038FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#botao {
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255, 0.9);
+    border: 2px transparent solid;
+    transition: all 0.2s;
+}
+#botao:hover {
+    border-color: #4AC7FA;
+    transform: translateY(-7px) scale(1.1);
+}
+#imagem {
+    margin: 0 80px;
+}
